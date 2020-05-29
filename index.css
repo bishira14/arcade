@@ -1,0 +1,82 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+body{
+  min-height:100vh;
+  background-color: rgb(40, 44, 52);
+  font-family:arial;
+  display:flex;
+  justify-content: center;
+  color:white;
+  align-items:center;
+  padding:5px;
+  display: flex;
+  flex-direction: column;
+}
+
+
+h2{
+  text-align: center;
+  margin: 25px;
+}
+.wrapper{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.wrapper .descrip{
+  border-radius:5px;
+  height:170px;
+  width:800px;
+  margin:8px;
+  display: flex;
+  background-color: rgb(33, 36, 44);
+}
+img{
+  height:170px;
+  width:250px;
+  border-radius:5px;
+  opacity:0.9;
+}
+.wrapper .info{
+  height:170px;
+  width:450px;
+  background: rgb(33, 36, 44);
+  border-radius: 5px;
+  padding:10px 15px;
+  line-height:1.2;
+  color:rgb(139, 146, 167);
+}
+.info h3{
+  margin:5px 0;
+}
+.info p{
+  font-size:15px;
+}
+.play{
+height:170px;
+width:100px;
+background-color: rgb(33, 36, 44);
+color:rgb(139, 146, 167);
+display:flex;
+justify-content:center;
+align-items:center;
+border-radius:5px;
+}
+.play h1{
+  background-color: rgb(40, 44, 52);
+  padding:5px;
+  border-radius: 7px;
+  font-family:Andale Mono;
+  font-size:3.5em;
+  cursor:pointer;
+}
+.play h1:hover{
+  background-color: rgb(66, 72, 87);
+}
+a{
+  text-decoration: none;
+  color: rgb(139, 146, 167);
+}
